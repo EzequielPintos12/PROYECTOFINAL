@@ -1,0 +1,132 @@
+.listanav{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1.4rem;
+    flex-wrap: wrap;
+    background-color:#161515;
+    margin: 0%;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo{
+    margin: 0x;
+    text-align: center;
+    padding-block: 15rem;
+    font-size: 3rem;
+    background-position: center;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    background-position: 0%;
+    background-image:-o-linear-gradient();
+    background-color:lightgray;
+    
+}
+    .item1:hover{
+        color: white;
+        background-color:#9c9c9c;
+        
+    }
+    .seccion-1 {
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+      }
+      .seccion-2{
+        font-family: 'Poppins', sans-serif;
+      }
+      .seccion-3{
+        font-family: 'Poppins', sans-serif;
+      }
+      .seccion-4{
+        font-family: 'Poppins', sans-serif;
+      }
+      .seccion-2 {
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        font-size: 1rem;
+      }
+      .fotos {
+        width: 200px;
+        height: 130px;
+        gap: 60px;
+        justify-content: center;
+      }
+      .layout {
+        width: 1000px;
+        height: 500px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+      }
+
+      .hola{
+        display: flex;
+        height:1.5%;
+        width: 1.5%;
+        margin: 2%;
+        
+      }
+
+      .productos{
+        margin: 3rem;
+    text-align: center;
+    padding-block: 15rem;
+    font-size: 3rem;
+    background-position: center;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    background-position: 0%;
+    background-image:-o-linear-gradient();
+    background-color:lightgray;
+      }
+      
+      @media screen and ( max-width: 768px){
+        body {
+            background-color: beige;
+        }
+      }
+      @media  (min-width: 768px) and (max-width:992px){
+        .listanav
+        .titulo
+        .fotos {
+            background-color: bisque;
+        }
+      }
+      .contactanos{
+        display: flex;
+        gap: 10rem;
+        justify-content:left;
+        list-style-type:none;
+        align-items: baseline;
+        font-size: 1.5em;
+        flex-wrap: wrap;
+        margin: 0%;
+        flex-direction: row;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+ 
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+h4{
+  font-size:25px;
+}
